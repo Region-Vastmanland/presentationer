@@ -1,0 +1,13 @@
+/* Ta bort extra marginaler runt slides */
+.reveal .slide {
+  padding: 0;
+}
+
+/* Gör att bilder fyller nästan hela sliden */
+.reveal section img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
